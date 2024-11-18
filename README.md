@@ -2,7 +2,7 @@
 
 This is the repository containing Python tools and datasets for _Hack-A-Fleet v2.0_.
 
-## TLDR;
+## TLDR
 
 The file `ferry_trips_data.csv` contains data of multiple trips made by 5 ferries owned by Färjerederiet. The file `utils.py` contains functions that you can use to fetch and work with data from PONTOS-HUB; the file `examples.ipynb` shows how.
 
