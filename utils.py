@@ -15,7 +15,7 @@ from typing import List, Tuple
 # Load environment variables from .env file
 load_dotenv()
 
-PONTOS_TOKEN = os.getenv("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2wiOiIiLCJjb3VudHJ5IjoiU0UiLCJleHAiOjE3MzQ1NDk1MjIsImlhdCI6MTczMTkxOTc3NiwiaXNzIjoicG9udG9zLWh1YiIsIm9yZ2FuaXNhdGlvbl90eXBlIjoidW5pdmVyc2l0eSIsInB1cnBvc2UiOiJyZXNlYXJjaCIsInJvbGUiOiJ3ZWJfdXNlciIsInN1YiI6Il9fdG9rZW5fXyJ9.wH5qdX-57fB7i9nwx2PQDJzhPLdZjxIHlRXVHnv-ijA")
+PONTOS_TOKEN = os.getenv("PONTOS_TOKEN")
 
 R = 6371000  # Earth's radius in meters
 
