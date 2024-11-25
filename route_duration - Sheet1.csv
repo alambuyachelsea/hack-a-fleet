@@ -1,0 +1,6 @@
+Route_ID,Route_name,Estimated_min_duration,on_peak_intervals,off_peak_intervals
+12,Furusundsleden,15,15,30
+17,Oxdjupsleden,15,15,20
+16,Ljusteröleden,20,20,20
+21,Vaxholmsleden,20,20,30
+38,Aspöleden,30,30,30
