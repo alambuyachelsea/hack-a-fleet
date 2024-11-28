@@ -4,9 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import datetime
 
-def average_load_by_hour(route_id:int, day_of_week:int):
-    # Process the Trips CSV file
-    trips_df = pd.read_csv("../../ferry_tips_data.csv")
+def average_load_by_hour(route_id:int, day_of_week:int, trips_df):
     #filter for chosen route and make sure to only count ordinary trips
     route_df = trips_df[(trips_df["route_id"] == route_id) & (trips_df["trip_type"] == "ordinary           ")] #The type ordinary has a bunch of spaces in the csv.
     route_name = route_df["route_name"].iloc[0]
